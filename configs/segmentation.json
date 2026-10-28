@@ -1,0 +1,14 @@
+{
+  "batch_size": 4,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "num_workers": 0,
+  "seed": 20261012,
+  "patience": 7,
+  "base_channels": 16,
+  "rotation_degrees": 10.0,
+  "horizontal_flip_probability": 0.5,
+  "dice_loss_weight": 0.5,
+  "mask_threshold": 128,
+  "device": "auto"
+}

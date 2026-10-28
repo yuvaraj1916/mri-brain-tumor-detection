@@ -1,0 +1,12 @@
+{
+  "batch_size": 32,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "num_workers": 0,
+  "seed": 20261012,
+  "patience": 7,
+  "rotation_degrees": 10.0,
+  "horizontal_flip_probability": 0.5,
+  "dropout": 0.25,
+  "device": "auto"
+}

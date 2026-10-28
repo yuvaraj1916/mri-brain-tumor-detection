@@ -1,0 +1,28 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Environment variables
+.env
+
+# Datasets
+datasets/**
+
+# Ignore model files by default
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Include the two models required for deployment
+!results/
+!results/classification/
+!results/classification/cnn_baseline_20261012T113201335170Z_8326fdd5/
+!results/classification/cnn_baseline_20261012T113201335170Z_8326fdd5/best_model.pt
+!results/segmentation/
+!results/segmentation/unet_baseline_20261012T120155132434Z_1cb36ccd/
+!results/segmentation/unet_baseline_20261012T120155132434Z_1cb36ccd/best_model.pt

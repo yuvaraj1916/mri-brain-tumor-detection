@@ -1,0 +1,12 @@
+# Install the OS-/hardware-appropriate PyTorch build using pytorch.org first.
+torch>=2.2
+torchvision>=0.17
+
+# Image processing, visualization, and evaluation dependencies.
+numpy>=1.26
+Pillow>=10.0
+matplotlib>=3.8
+scikit-learn>=1.4
+
+# Test runner; the current foundation tests also run with unittest.
+pytest>=8.0

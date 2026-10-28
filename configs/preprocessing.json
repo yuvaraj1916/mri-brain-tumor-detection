@@ -1,0 +1,10 @@
+{
+  "image_size": [256, 256],
+  "color_mode": "grayscale",
+  "image_normalization": "zero_one",
+  "image_resampling": "bilinear",
+  "mask_resampling": "nearest",
+  "mask_background_value": 0,
+  "mask_min_foreground_pixels": 1,
+  "random_seed": 20261012
+}
